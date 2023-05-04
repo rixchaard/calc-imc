@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entendendo variáveis e contas</title>
+
+    <script src="https://kit.fontawesome.com/74f5d82ab4.js" crossorigin="anonymous"></script>
+    <script src="./calc_media.js"></script>
+    <script src="./calc_imc.js"></script>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <h1>Entendendo variáveis e contas</h1>
+    <h2>Calculadora de média</h2>
+    <div><i class="fas fa-calculator flex"></i></div>
+    <div class="wrapper"><button class="btns" onclick="calcularMedia()">Clique aqui para calcular a média entre dois números</button></div>
+    <h3 id="titulo_resultado_media" style="display: none;">Esse é o resultado do calculo da média</h3>
+    <p id="resultado_media"></p>
+
+
+    <h2>Calculadora de IMC</h2>
+    <div><i class="fas fa-weight flex"></i></i></div>
+    <div class="wrapper flex"><button class="btns flex" onclick="calcularIMC()">Clique aqui para calcular o seu IMC</button></div>
+    <h3 id="titulo_resultado_imc" style="display: none;">Esse é o resultado do calculo do IMC</h3>
+</body>
+</html>

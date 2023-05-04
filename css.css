@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Nunito:wght@600;700;800&display=swap'); 
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+h1, h2, p, button {
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 20px;
+    text-align: center;
+    
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+body > h1, h2 {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.438);
+}
+
+i{
+    font-size: 52px;
+    margin: 25px;
+    color: salmon;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 1140px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.btns {
+    margin-left: 68%;
+    padding: 25px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 15px;
+    font-weight: 600;
+    background-color: white;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.616);
+    
+}
+
+.btns:hover {
+    background-color: aquamarine;
+    
+}
+
